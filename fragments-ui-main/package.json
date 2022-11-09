@@ -1,0 +1,38 @@
+{
+  "name": "fragments-ui",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Fragments UI testing web app",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --config .eslintrc.js src/**",
+    "build": "parcel build src/index.html",
+    "serve": "parcel serve src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaanmshaikh03/fragments-ui.git"
+  },
+  "keywords": [],
+  "author": "Mohammedamaan Shaikh",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/amaanmshaikh03/fragments-ui/issues"
+  },
+  "homepage": "https://github.com/amaanmshaikh03/fragments-ui#readme",
+  "alias": {
+    "process": false
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "eslint": "^8.9.0",
+    "eslint-plugin-html": "^6.2.0",
+    "prettier": "2.5.1",
+    "querystring-es3": "^0.2.1"
+  },
+  "dependencies": {
+    "aws-amplify": "^4.3.12",
+    "parcel": "^2.2.1"
+  }
+}
